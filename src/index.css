@@ -1,0 +1,36 @@
+.accordion {}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  border: 1px solid #ccc;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.question .number {
+  color: #777;
+}
+
+.questionOpen {
+  border: 1px solid #ccc;
+  margin: 1rem;
+  padding: 1rem;
+  border-top: 10px solid teal;
+}
+
+.questionOpen .number {
+  color: teal;
+}
+
+.questionOpen .title {
+  color: teal;
+}
+
+.icon {
+  font-weight: bold;
+  font-size: larger;
+}
